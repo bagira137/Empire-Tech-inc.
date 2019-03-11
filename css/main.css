@@ -1538,13 +1538,13 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .header-menu-toggle {
     position: fixed;
-    right: 110px;
-    top: 38px;
-    width: 48px;
-    height: 45px;
-    line-height: 45px;
+    right: 5vw;
+    top: 3.5vw;
+    width: 4.6vw;
+    height: 4.6vw;
+    line-height: 5vw;;
     font-family: "metropolis-regular", sans-serif;
-    font-size: 2.2rem;
+    font-size: 2vw;
     text-transform: uppercase;
     letter-spacing: 0.4rem;
     color: black;
@@ -1552,16 +1552,17 @@ input::-moz-focus-inner {
     transition: all 0.5s ease-in-out;
 }
 .header-menu-toggle::before {
-  display: inline-block;
-  content: "Menu";
-  height: 45px;
-  left: auto;
-  text-align: right;
-  padding-left: 15px;
-  padding-right: 10px;
-  position: absolute;
-  top: 0;
-  right: 100%;
+    display: flex;
+    align-items: center;
+    content: "Menu";
+    height: 1vw;
+    left: auto;
+    text-align: right;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    position: absolute;
+    top: 0;
+    right: 100%;
 }
 .header-menu-toggle.opaque {
   background-color: #000000;
@@ -1577,14 +1578,14 @@ input::-moz-focus-inner {
 
 .header-menu-icon {
   display: block;
-  width: 26px;
-  height: 2px;
-  margin-top: -1px;
+  width: 3.2vw;
+  height: 0.3vw;
+  margin-top: -0.1vw;
   right: auto;
   bottom: auto;
   background-color: white;
   position: absolute;
-  left: 11px;
+  left: 0.65vw;
   top: 50%;
 }
 .header-menu-icon::before,
@@ -1597,10 +1598,10 @@ input::-moz-focus-inner {
   left: 0;
 }
 .header-menu-icon::before {
-  top: -9px;
+  top: -1vw;
 }
 .header-menu-icon::after {
-  bottom: -9px;
+  top: 1vw;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1651,7 +1652,7 @@ input::-moz-focus-inner {
 }
 @media only screen and (max-width: 400px) {
   .s-header {
-    top: 6px;
+    top: 0px;
   }
 
   .header-logo {
