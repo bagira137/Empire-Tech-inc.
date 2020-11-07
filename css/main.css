@@ -85,7 +85,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-  color: #cc147f;
+  color: red;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -385,7 +385,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #cc147f;
+  background: red;
   position: absolute;
   left: -17px;
   top: 11px;
@@ -394,7 +394,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #cc147f;
+  color: red;
 }
 
 dd {
@@ -772,7 +772,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #cc147f;
+  -webkit-text-fill-color: red;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -830,8 +830,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #cc147f;
-  border-color: #cc147f;
+  background: red;
+  border-color: red;
   color: #ffffff;
 }
 
@@ -2642,7 +2642,7 @@ html.no-csstransitions .home-content__main {
 .item-folio__project-link:hover,
 .item-folio__project-link:focus,
 .item-folio__project-link:active {
-  background-color: #cc147f;
+  background-color: red;
   color: #ffffff;
 }
 
@@ -3054,7 +3054,7 @@ html.no-csstransitions .home-content__main {
   display: block;
   height: 1px;
   width: 60px;
-  background-color: #cc147f;
+  background-color:red;
   position: absolute;
   top: 0;
   left: 0;
@@ -3145,13 +3145,13 @@ html.no-csstransitions .home-content__main {
   color: rgba(255, 255, 255, 0.2) !important;
 }
 .mc-form input[type="submit"] {
-  color: #ffffff;
-  background: #cc147f;
-  border-color: #cc147f;
-  padding: 0 15px;
-  position: absolute;
-  top: 0;
-  right: 0;
+    color: #ffffff;
+    background: red;
+    border-color: red;
+    padding: 0 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 .mc-form label {
   color: #ffffff;
