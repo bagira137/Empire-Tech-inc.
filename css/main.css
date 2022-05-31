@@ -81,6 +81,19 @@ body {
   padding: 0;
 }
 
+.main_p {
+	color: white;
+	margin-bottom: 5px;
+	font-size: 21px;
+}
+
+.header_p {
+	color: black;
+	margin-left: 10vw;
+	font-size: 3vw;
+	margin-top: 2vw;
+}
+
 /* ------------------------------------------------------------------- 
  * ## links
  * ------------------------------------------------------------------- */
@@ -1363,7 +1376,8 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .header-logo {
   z-index: 501;
-  display: inline-block;
+	display: flex;
+	align-items: center;
   margin: 0;
   padding: 0;
   position: absolute;
@@ -2036,7 +2050,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-content__main {
-    padding-top: 18rem;
+    padding-top: 15rem;
   }
 
   .home-sidelinks {
