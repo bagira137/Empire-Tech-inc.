@@ -54,7 +54,7 @@
         $WIN.on('scroll', function() {
 
             if ($WIN.scrollTop() > 80) {
-                menuTrigger.addClass('opaque');
+                menuTrigger.removeClass('opaque');
             }
             else {
                 menuTrigger.removeClass('opaque');
