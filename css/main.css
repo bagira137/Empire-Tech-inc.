@@ -1703,7 +1703,28 @@ input::-moz-focus-inner {
 @media only screen and (max-width: 500px) {
   .header-menu-toggle::before {
     display: none;
-  }
+	}
+	
+	#HVAC {
+    width: 4vw;
+    height: 4vw;
+    margin-left: 5vw;
+	}
+
+	.header_p {
+    color: black;
+    margin-left: 1vw;
+    font-size: 3vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 300;
+	}
+
+	.main_p {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 3.4vw;
+	}
 }
 @media only screen and (max-width: 400px) {
   .s-header {
@@ -1721,7 +1742,28 @@ input::-moz-focus-inner {
   .header-menu-toggle {
     top: 24px;
     right: 20px;
-  }
+	}
+	
+	#HVAC {
+    width: 4vw;
+    height: 4vw;
+    margin-left: 5vw;
+	}
+
+	.header_p {
+    color: black;
+    margin-left: 1vw;
+    font-size: 3vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 300;
+	}
+
+	.main_p {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 3.4vw;
+	}
 }
 
 
